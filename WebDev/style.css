@@ -1,0 +1,94 @@
+/* Global reset styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+#bar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    gap: 20px;
+}
+
+#right {
+    display: flex;
+    font-size: 23px;
+    gap: 20px;
+}
+
+#left {
+    font-size: 55px;
+    list-style: none;
+    margin-left: 10px;
+}
+
+#right li {
+    list-style: none;
+    margin: 20px;
+}
+
+/* Intro section styles */
+#intro {
+    width: 100%;
+    height: 600px;
+    padding: 1px;
+    background-color: black;
+    background: url("https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+#intro_part {
+    padding: 1px;
+    margin-top: 20px;
+    margin-left: 55px;
+    width: 35%;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#intro2 {
+    position: absolute;
+    width: 38%;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+/* Contact form container styles */
+.container {
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
